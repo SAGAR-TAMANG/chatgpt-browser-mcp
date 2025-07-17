@@ -99,8 +99,13 @@ With the server running, you can connect to Claude MCP Client.
 ```
 uv run mcp install main.py
 ```
-This will add the this MCP to config.json of Claude Desktop App.
+This will add the this MCP to claude_desktop_config.json of Claude Desktop App.
 
+Then add this in your args of claude_desktop_config.json:
+```
+"--python",
+"C:\\Path\\To\\Your\\Venv\\Scripts\\activate.bat",
+```
 -----
 
 ## ⚠️ Important Notes
