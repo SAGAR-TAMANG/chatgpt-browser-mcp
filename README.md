@@ -8,10 +8,9 @@ This is useful for tasks that require interacting with the most up-to-date versi
 
 ## 🎥 Video Tutorial
 
-Coming Soon..
-<!-- For a complete walkthrough of the setup, configuration, and usage, please watch the video tutorial below.
+For a complete walkthrough of the setup, configuration, and usage, please watch the video tutorial below.
 
-[![Watch the video tutorial](https://img.youtube.com/vi/tzenr4y6Cp0/0.jpg)](http://www.youtube.com/watch?v=tzenr4y6Cp0) -->
+[![Watch the video tutorial](https://img.youtube.com/vi/3KDubIRDRww/0.jpg)](http://www.youtube.com/watch?v=3KDubIRDRww)
 
 -----
 
