@@ -52,6 +52,7 @@ Use `uv` to create a virtual environment and install the required Python package
 ```shell
 # Create and activate a virtual environment
 uv venv
+.venv\Scripts\activate
 
 # Install dependencies
 uv pip install .
