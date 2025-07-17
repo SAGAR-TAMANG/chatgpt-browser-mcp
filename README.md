@@ -1,5 +1,7 @@
 # ChatGPT Browser MCP
 
+<img src="ss.png">
+
 This project provides an MCP (Model-Client-Protocol) server that allows an AI model, like Claude, to control a local Chrome browser to interact with ChatGPT. It exposes a `run_chatgpt` tool that can be called by an MCP client to get responses directly from the ChatGPT web interface.
 
 This is useful for tasks that require interacting with the most up-to-date version of ChatGPT or for leveraging its capabilities within a larger automated workflow controlled by an AI agent.
