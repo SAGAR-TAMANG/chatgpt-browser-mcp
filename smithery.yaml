@@ -1,0 +1,46 @@
+# A unique identifier for your project on Smithery.
+id: sagar-tamang/chatgpt-automation
+
+# The friendly name that will be displayed in the Smithery registry.
+displayName: "Local ChatGPT Automation"
+
+# A brief explanation of what your MCP server does.
+description: "Automates sending messages to ChatGPT by locally controlling a Chrome browser."
+
+# Your GitHub username.
+author: "sagar-tamang"
+
+# The source code location. This now points to your actual repository.
+source: "github:SAGAR-TAMANG/chatgpt-browser-mcp" # <-- ✅ UPDATED
+
+# Tags to help others discover your project.
+tags:
+  - "automation"
+  - "chatgpt"
+  - "browser"
+  - "local"
+
+# An icon from the Tabler Icons library (https://tabler-icons.io/)
+icon: "brand-openai"
+
+# This section tells Smithery that this server must be run on the user's local machine.
+local: true
+
+# Defines the configuration variables your server needs so you don't have to
+# hardcode file paths in your script.
+configSchema:
+  type: "object"
+  properties:
+    browser_executable_path:
+      type: "string"
+      description: "The full file path to the chrome binary file (chrome.exe executable)."
+    user_data_dir:
+      type: "string"
+      description: "The full file path to the Chrome User Data directory."
+    profile_name:
+      type: "string"
+      description: "The name of the Chrome profile to use (e.g., 'Profile 1', 'Default')."
+  required:
+    - "browser_executable_path"
+    - "user_data_dir"
+    - "profile_name"
